@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashur Fitness </title>
+</head>
+     <style>
+        /* CSS Reset */
+        body{
+            margin: 0;
+            padding: 0;
+            background: url(asur.jpg);
+            /* background-repeat: no-repeat; */
+            color: rgb(237, 230, 230);
+            font-family:'Courier New', Courier, monospace;
+        }
+    
+        .left{
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            width: 125px;
+            left:64px;
+            top:20px; 
+            text-align: center;
+            line-height: 80%;
+            font-size: 20px;
+        }
+        .left img{
+            width: 80px;
+            
+        }
+        /* .left div{
+            font-size: 50;
+        } */
+        .mid{ 
+               /* border: 2px solid green; */
+                display: block;
+                width: 55%;
+                margin:20px  auto;
+                /* position: absolute; */
+            }
+            .right{  
+                display: inline-block;
+                /* border: 2px solid yellow; */
+                position: absolute;
+                right:34px;
+                top:20px;
+        }
+        .btn{
+            margin:4px 8px 0px ;
+            padding:4px 14px;
+            background-color:black;
+            color: white;
+            border: 2px solid gray;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+
+        }
+        .btn:hover{
+            background-color: #7f5757;
+        }
+        .navbar {
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: large;
+        }
+        .navbar li a{
+            font-weight: bold;
+            font-size:25px;
+            color: white;
+            text-decoration: none;
+            margin: 8px;
+            padding: 14px;
+        }
+        .navbar li a:hover,.navbar li a:active{
+            text-decoration: underline;
+            color:rgb(223, 228, 58);
+            background-color: rgb(208, 125, 24);
+        }
+        .container{
+            border: 2px solid rgb(175, 166, 166);
+            margin: 100px 50px;
+            padding: 45px;
+            border-radius: 12px;
+            text-align: center;
+            width: 33%;
+            display: block;
+        }
+        .from-group input{
+            font-size: 20px;
+            width: 80%;
+            border: 2px solid rgb(9, 1, 1);
+            border-radius: 10px;
+            text-align: center;
+            display: block;
+            margin:8px auto;
+            background: #d0d2d3;
+            padding: 4px;
+        }
+        .container .btn{
+            display:block;
+            text-align: center;
+            width: 40%;
+            margin: auto;
+
+        }
+    </style>
+<body>
+    <header class="header">
+        <!-- left boox for logo  -->
+        <div class="left">
+          <img src="logo.jpg" alt="">
+          Ashur Fitness
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid"> 
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">fitness calculator</a></li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+        <button class="btn">Contact us</button>
+        <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+     <h1>Join The Best GYM of Noida</h1>
+     <form action="noaction.php"></form>
+     <div class="from-group">
+        <input type="text" name="" placeholder="Enter your Name ">
+     </div>
+     <div class="from-group">
+        <input type="text" name="" placeholder="Enter your Age ">
+     </div>
+     <div class="from-group">
+        <input type="text" name="" placeholder="Enter your Phone Number">
+     </div>
+     <div class="from-group">
+        <input type="text" name="" placeholder="Enter your Email ">
+     </div>
+     <button class="btn">submit</button>
+    </div>
+</body>
+</html>
