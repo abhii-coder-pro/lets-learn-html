@@ -134,11 +134,11 @@
 #client-section::before {
     content: "";
     position: absolute;
-    background: url(bg2.jpg)no-repeat center center/cover;
+    background: url(img4.jpg)no-repeat center center/cover;
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 .client-item {
@@ -152,7 +152,7 @@
 }
 
 #clients img {
-    height: 125px;
+    height: 140px;
 }
 
 /* contact section */
@@ -166,8 +166,8 @@
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: 0.4;
-    background: url(bg3.jpg) no-repeat center center/cover;
+    opacity: 0.8;
+    background: url(img3.jpg)no-repeat center center/cover;
 }
 
 #contact-box {
@@ -278,7 +278,7 @@ footer {
     }
 
     #clients img {
-        width: 56px;
+        width: 66px;
         padding: 2px 5px;
     }
 
